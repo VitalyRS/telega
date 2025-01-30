@@ -9,7 +9,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
 distro==1.9.0
-dpcpp-cpp-rt==2025.0.4
+dpcpp-cpp-rt
 exceptiongroup==1.2.1
 gTTS==2.5.1
 h11==0.14.0
