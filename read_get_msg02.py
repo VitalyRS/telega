@@ -22,6 +22,8 @@ def echo_message(message):
 
 if __name__ == '__main__':
     print("Starting the bot...")
+    port = int(os.environ.get('PORT', 5000))  # Используйте порт из переменной окружения
+    print(f"Server is running on port {port}")
     try:
         bot.polling(none_stop=True, interval=0)
     except Exception as e:
